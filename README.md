@@ -1,0 +1,1 @@
+# redirect-softwarecenter.github.io
