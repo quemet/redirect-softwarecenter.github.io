@@ -12,10 +12,8 @@
         <a class="redirect" href="softwarecenter:Page=AvailableSoftware"></a>
       <script>
         document.querySelector(".redirect").click();
-        if(!document.hidden) {
-          alert("Hi hi");
-        }
-        window.close()
+
+        setTimeout(() => { window.close() }, 5000);
       </script>
     </main>
   </body>
