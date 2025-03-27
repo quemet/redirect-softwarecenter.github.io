@@ -10,10 +10,11 @@
     <main>
         <h1>Redirecting...</h1>
         <a class="redirect" href="softwarecenter:Page=AvailableSoftware"></a>
+        <div class="close" onClick="window.close()"></a>
       <script>
         document.querySelector(".redirect").click();
 
-        setTimeout(() => { window.close() }, 5000);
+        setTimeout(() => { document.querySelector(".close").click() }, 5000);
       </script>
     </main>
   </body>
